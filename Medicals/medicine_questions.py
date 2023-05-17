@@ -7872,7 +7872,7 @@ def search_question(keyword):
     return results
 
 def main():
-    st.title("试卷展示应用")
+    st.title("药剂学试卷展示应用")
     # display_questions(1,7)
     # 搜索框
     search_keyword = st.text_input('输入关键字搜索题目：')
