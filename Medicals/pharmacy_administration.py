@@ -34,7 +34,7 @@ questions = {
         "text": "医疗保险基金准予支付列入《基本医疗保险药品目录》中的西药 ( )",
         "options": {},
         "answer": "",
-        "answer_text": "v"
+        "answer_text": "√"
     },
     "1-6": {
         "text": "各省可以根据本地实际情况对“甲类目录”中的药品进行调整（）",
@@ -64,19 +64,19 @@ questions = {
         "text": "处方药与非处方药应当分柜台摆放（）",
         "options": {},
         "answer": "",
-        "answer_text": "v"
+        "answer_text": "√"
     },
     "1-11": {
         "text": "根据药品的安全性评价，非处方药分为甲类和乙类（）",
         "options": {},
         "answer": "",
-        "answer_text": "v"
+        "answer_text": "√"
     },
     "1-12": {
         "text": "乙类非处方药可以在药品监督管理部门批准的超市内零售（）",
         "options": {},
         "answer": "",
-        "answer_text": "v"
+        "answer_text": "√"
     },
     "1-13": {
         "text": "国家药品监督管理局与上海市药品监督管理局之间是行政隶属关系（）",
@@ -88,49 +88,49 @@ questions = {
         "text": "我国药品监督检验机构共分四级（）",
         "options": {},
         "answer": "",
-        "answer_text": "v"
+        "answer_text": "√"
     },
     "1-15": {
         "text": "中国食品药品检定研究院所负责标定和管理国家药品标准品、对照品（）",
         "options": {},
         "answer": "",
-        "answer_text": "v"
+        "answer_text": "√"
     },
     "1-16": {
         "text": "美国的药品监督管理组织是FDA（）",
         "options": {},
         "answer": "",
-        "answer_text": "v"
+        "answer_text": "√"
     },
     "1-17": {
         "text": "《药品生产许可证》有效期是5年（）",
         "options": {},
         "answer": "",
-        "answer_text": "v"
+        "answer_text": "√"
     },
     "1-18": {
         "text": "《药品经营许可证》有效期是5年（）",
         "options": {},
         "answer": "",
-        "answer_text": "v"
+        "answer_text": "√"
     },
     "1-19": {
         "text": "药品质量的内涵包括真伪、纯度、品质优良度三方面（）",
         "options": {},
         "answer": "",
-        "answer_text": "v"
+        "answer_text": "√"
     },
     "1-20": {
         "text": "同一药物剂型不同，其药效也不相同（）",
         "options": {},
         "answer": "",
-        "answer_text": "v"
+        "answer_text": "√"
     },
     "1-21": {
         "text": "同一药物剂型不同，其药效作用的强度和速度也不同（）",
         "options": {},
         "answer": "",
-        "answer_text": "v"
+        "answer_text": "√"
     },
     "1-22": {
         "text": "同一药物剂型不同，其不良反应也不同（）",
@@ -142,31 +142,31 @@ questions = {
         "text": "药物上市前研究包括临床前研究和临床研究 （）",
         "options": {},
         "answer": "",
-        "answer_text": "v"
+        "answer_text": "√"
     },
     "1-24": {
         "text": "药物临床前研究中的安全性评价必须执行GCP（）",
         "options": {},
         "answer": "",
-        "answer_text": "v"
+        "answer_text": "√"
     },
     "1-25": {
         "text": "药物临床研究必须执行GCP（）",
         "options": {},
         "answer": "",
-        "answer_text": "v"
+        "answer_text": "√"
     },
     "1-26": {
         "text": "制剂的安全性包括刺激性试验、溶血试验、过敏试验三项（）",
         "options": {},
         "answer": "",
-        "answer_text": "v"
+        "answer_text": "√"
     },
     "1-27": {
         "text": "制剂的稳定性包括化学稳定性和物理稳定性二项（）",
         "options": {},
         "answer": "",
-        "answer_text": "v"
+        "answer_text": "√"
     },
     "1-28": {
         "text": "制剂稳定性试验常用方法是在室温条件下留样观察（）",
@@ -178,43 +178,43 @@ questions = {
         "text": "镇痛药需要做药物依赖性试验（）",
         "options": {},
         "answer": "",
-        "answer_text": "v"
+        "answer_text": "√"
     },
     "1-30": {
         "text": "药品生产企业是指生产药品的专营企业或者兼营企业。   ",
         "options": {},
         "answer": "",
-        "answer_text": "v"
+        "answer_text": "√"
     },
     "1-31": {
         "text": "药品生产许可证电子证书与纸质证书具有同等法律效力。 ",
         "options": {},
         "answer": "",
-        "answer_text": "v"
+        "answer_text": "√"
     },
     "1-32": {
         "text": "药品委托生产的委托方应当是取得该药品批准文号的药品生产企业,负责委托生产药品的质量和销售。",
         "options": {},
         "answer": "",
-        "answer_text": "v"
+        "answer_text": "√"
     },
     "1-33": {
         "text": "药品生产许可证分为正本和副本。 ",
         "options": {},
         "answer": "",
-        "answer_text": "v"
+        "answer_text": "√"
     },
     "1-34": {
         "text": "药品生产许可证载明事项分为许可事项和登记事项",
         "options": {},
         "answer": "",
-        "answer_text": "v"
+        "answer_text": "√"
     },
     "1-35": {
         "text": "GMP规定注射用水可采用90°C以上保温循环的方式保存。   ",
         "options": {},
         "answer": "",
-        "answer_text": "v"
+        "answer_text": "√"
     },
     "1-36": {
         "text": "每批药品应当有批记录,批记录应当由质量管理部门负责管理,至少保存至药品有效期后3年。   ",
@@ -226,19 +226,19 @@ questions = {
         "text": "质量标准、工艺规程、操作规程、稳定性考察等重要文件应当长期保存。 ",
         "options": {},
         "answer": "",
-        "answer_text": "v"
+        "answer_text": "√"
     },
     "1-38": {
         "text": "无《药品经营许可证》的，不得经营药品。",
         "options": {},
         "answer": "",
-        "answer_text": "v"
+        "answer_text": "√"
     },
     "1-39": {
         "text": "开办药品批发企业，须经企业所在地的省级药监部门批准。",
         "options": {},
         "answer": "",
-        "answer_text": "v"
+        "answer_text": "√"
     },
     "1-40": {
         "text": "开办药品批发企业，须经企业所在地县级以上药监部门批准。",
@@ -250,7 +250,7 @@ questions = {
         "text": "开办药品零售企业，须经企业所在地县级以上药监部门批准。",
         "options": {},
         "answer": "",
-        "answer_text": "v"
+        "answer_text": "√"
     },
     "1-42": {
         "text": "开办药品零售企业，须经企业所在地省级药监部门批准。",
@@ -262,7 +262,7 @@ questions = {
         "text": "开办药品零售企业应符合方便群众购药的原则。",
         "options": {},
         "answer": "",
-        "answer_text": "v"
+        "answer_text": "√"
     },
     "1-44": {
         "text": "药品生产企业可以销售他人生产的药品。",
@@ -280,7 +280,7 @@ questions = {
         "text": "药品生产企业只能销售本企业生产的药品。",
         "options": {},
         "answer": "",
-        "answer_text": "v"
+        "answer_text": "√"
     },
     "1-47": {
         "text": "药品经营企业可以以展示会的方式现货销售药品。",
@@ -304,7 +304,7 @@ questions = {
         "text": "药品经营企业应当按照《药品经营许可证》许可的经营范围经营药品。",
         "options": {},
         "answer": "",
-        "answer_text": "v"
+        "answer_text": "√"
     },
     "1-51": {
         "text": "药品经营企业可以以买商品赠药品的方式向公众赠送处方药。",
@@ -316,7 +316,7 @@ questions = {
         "text": "药师具有处方权和调剂处方权。",
         "options": {},
         "answer": "",
-        "answer_text": "v"
+        "answer_text": "√"
     },
     "1-53": {
         "text": "经注册的执业医师可以在任何医院取得处方权。",
@@ -346,13 +346,13 @@ questions = {
         "text": "麻醉药品处方用纸为淡红色。",
         "options": {},
         "answer": "",
-        "answer_text": "v"
+        "answer_text": "√"
     },
     "1-58": {
         "text": "第二类精神药品处方用纸为白色。",
         "options": {},
         "answer": "",
-        "answer_text": "v"
+        "answer_text": "√"
     },
     "1-59": {
         "text": "第一类精神药品处方用纸为白色。",
@@ -364,13 +364,13 @@ questions = {
         "text": "中药饮片应当单独开具处方。",
         "options": {},
         "answer": "",
-        "answer_text": "v"
+        "answer_text": "√"
     },
     "1-61": {
         "text": "处方中的药品一般不超过7日用量。",
         "options": {},
         "answer": "",
-        "answer_text": "v"
+        "answer_text": "√"
     },
     "1-62": {
         "text": "麻醉药品和第一类精神药品的临床试验，可以以健康人为受试对象。",
@@ -382,7 +382,7 @@ questions = {
         "text": "国家对麻醉药品和精神药品实行定点生产制度。",
         "options": {},
         "answer": "",
-        "answer_text": "v"
+        "answer_text": "√"
     },
     "1-64": {
         "text": "麻醉药品和第一类精神药品可以零售。",
@@ -412,7 +412,7 @@ questions = {
         "text": "在药品包装上，药品商品名的字体和颜色不得比通用名称更突出和显著。",
         "options": {},
         "answer": "",
-        "answer_text": "v"
+        "answer_text": "√"
     },
     "1-69": {
         "text": "新药监测期已满的药品，报告该药品引起的所有不良反应。",
@@ -424,25 +424,25 @@ questions = {
         "text": "新药监测期内的药品，报告该药品发生的所有不良反应。",
         "options": {},
         "answer": "",
-        "answer_text": "v"
+        "answer_text": "√"
     },
     "1-71": {
         "text": "必要时，可以越级报告药品不良反应。",
         "options": {},
         "answer": "",
-        "answer_text": "v"
+        "answer_text": "√"
     },
     "1-72": {
         "text": "药品不良反应实行逐级、定期报告制度。",
         "options": {},
         "answer": "",
-        "answer_text": "v"
+        "answer_text": "√"
     },
     "1-73": {
         "text": "我国对新药品种设立不超过5年的监测期。",
         "options": {},
         "answer": "",
-        "answer_text": "v"
+        "answer_text": "√"
     },
     "1-74": {
         "text": "在新药监测期内，国家药品监督管理局可以批准其他企业生产和进口该药品。",
