@@ -225,10 +225,10 @@ if button:
     if not found:
         st.write("抱歉，没有找到答案。")
 
-
 # 在网页上显示一个标题，表示以下是全部题目
 st.header("以下是全部题目：")
 
 # 遍历字典中的所有题目，用st.write()函数打印出来
 for question in questions:
     st.write(question)
+
