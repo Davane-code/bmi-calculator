@@ -3916,7 +3916,7 @@ questions = {
 }
 
 def display_questions(start, end):
-    st.title('药事管理学试卷展示')
+    st.title('药物分析学试卷展示')
     st.header('选择题')
     st.subheader('[A型题]')
 
