@@ -3939,7 +3939,7 @@ def search_question(keyword):
     return results
 
 def main():
-    st.title("药剂学试卷展示应用")
+    st.title("药物分析学试卷展示应用")
     # display_questions(1,7)
     # 搜索框
     search_keyword = st.text_input('输入关键字搜索题目：')
@@ -3962,6 +3962,8 @@ def main():
                     st.markdown(f"**{question_num}.{question_data['text']}**")
                     for option, text in question_data['options'].items():
                         st.markdown(f'- {option}. {text}')
+                    if question_data["answer"] == 'latex:':
+                        st.markdown(f'答案：{question_data["answer"]} - <span style="background-color: yellow;">{question_data["answer_text"]}</span>', unsafe_allow_html=True)
                     st.markdown(f'答案：{question_data["answer"]} - <span style="background-color: yellow;">{question_data["answer_text"]}</span>', unsafe_allow_html=True)
                     st.markdown('---')
                 else:
