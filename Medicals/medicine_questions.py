@@ -7895,7 +7895,7 @@ def main():
                     st.markdown(f"**{question_num}.{question_data['text']}**")
                     for option, text in question_data['options'].items():
                         st.markdown(f'- {option}. {text}')
-                    st.markdown(f'答案：{question_data["answer"]} - <span style="background-color: yellow;">{question_data["answer_text"]}</span>', unsafe_allow_html=True)
+                    st.markdown(f'答案：{question_data["answer"]}  <span style="background-color: yellow;">{question_data["answer_text"]}</span>', unsafe_allow_html=True)
                     st.markdown('---')
                 else:
                     st.error("Question not found!")
@@ -7903,12 +7903,12 @@ def main():
             st.markdown('### 搜索结果：无匹配题目')
 
     # 显示所有题目
-    st.markdown('### 所有题目：')
-    for question_num, question_data in questions.items():
-        st.markdown(f'**题目 {question_num}:** {question_data["text"]}')
-        for option, text in question_data['options'].items():
-            st.markdown(f'- {option}. {text}')
-        st.markdown('---')
+    # st.markdown('### 所有题目：')
+    # for question_num, question_data in questions.items():
+    #     st.markdown(f'**题目 {question_num}:** {question_data["text"]}')
+    #     for option, text in question_data['options'].items():
+    #         st.markdown(f'- {option}. {text}')
+    #     st.markdown('---')
 
 
 if __name__ == '__main__':
