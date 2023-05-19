@@ -207,7 +207,15 @@ questions = {
         "text": "试列举两个可以用于描述药物体内消除速度的动力学参数，并加以说明。",
         "options": {},
         "answer": "latex:",
-        "answer_text": "描述药物体内消除速度的动力学参数有消除速率常数和生物半衰期。\n\n消除速率常数，是描述速度过程的动力学参数。药物消除速率可表示为：-dx/dt = -kX^n，其中k表示消除速率常数。消除速率常数的大小可以定量地描述药物消除速度的快慢，消除速率常数越大，消除过程进行得越快。\n\n生物半衰期，是指药物在体内的药物量或血药浓度通过各种途径消除一半所需要的时间，以t1/2表示。生物半衰期是衡量一种药物从体内消除快慢的指标。一般来说，代谢快、排泄快的药物，其t1/2短；代谢慢，排泄慢的药物，其t1/2长。"
+        "answer_text": "解：\\newline"
+                       "描述药物体内消除速度的动力学参数有消除速率常数和生物半衰期。"
+                       "\\newline 消除速率常数，是描述速度过程的动力学参数。药物消除速率可表示为："
+                       "\\newline -\\frac{dx}{dt}=-kX^n，其中k表示消除速率常数。"
+                       "\\newline 消除速率常数的大小可以定量地描述药物消除速度的快慢，"
+                       "\\newline 消除速率常数越大，消除过程进行得越快。"
+                       "\\newline 生物半衰期，是指药物在体内的药物量或血药浓度通过各种途径消除一半所需要的时间，"
+                       "\\newline 以t1/2表示。生物半衰期是衡量一种药物从体内消除快慢的指标。"
+                       "\\newline 一般来说，代谢快、排泄快的药物，其t1/2短；代谢慢，排泄慢的药物，其t1/2长。"
     },
     "2-2": {
         "text": "比较药物被动转运与主动转运的异同。",
@@ -344,20 +352,36 @@ questions = {
     "2-24": {
         "text": "什么是达坪分数？静脉注射给药达坪分数与血管外给药达坪分数求算公式有何不同？为什么？",
         "options": {},
-        "answer": "",
-        "answer_text": "请参考答案纸第1题"
+        "answer": "latex:",
+        "answer_text": "解：\\newline"
+                       "\\newline 达坪分数是指第n次给药后的平均血药浓度 \\overline C_n "
+                       "\\newline 与稳态平均血药浓度\\overline C_{ss} 相比，相当于稳态平均血药浓度\\overline C_{ss} 的分数，以上f_{ss(n)}表示。"
+                       "\\newline 静脉注射给药的达坪分数求算公式为:"
+                       "f_{ss(n} = 1 - e^{-nk \\tau}"
+                       "\\newline 血管外给药达坪分数求算公式为："
+                       "\\newline f_{ss(n)} = 1 - \\frac{k_a e^{-nk \\tau} - ke^{-nk_a \\tau}}{k_a -k}"
+                       "\\newline 这是由于血管外给药时药物有一个吸收过程，吸收速率常数k_a的"
+                       "\\newline 大小会影响药物达到稳态的分数。只有当k_a>>k，在\\tau时吸收基本结束的情况下，"
+                       "\\newline 才可以不考虑k_a对f_{ss(n)}的影响，此时f_{ss(n)} = 1-e^{-nk\\tau}"
     },
     "2-25": {
         "text": "重复静脉注射给药与血管外重复给药平均稳态血药浓度求算公式有何不同？为什么？",
         "options": {},
-        "answer": "",
-        "answer_text": "请参考答案纸第2题"
+        "answer": "latex:",
+        "answer_text": "解：\\newline"
+                       "重复静脉注射给药的平均稳态血药浓度求算公式为：\\overline C_{ss} = \\frac{X_0}{Vk \\tau}"
+                       "\\newline 血管外重复给药的平均稳态血药浓度求算公式为： \\overline C_{ss} = \\frac{FX_0}{Vk \\tau}"
+                       "\\newline 这是由于血管外给药时药物有一个吸收过程，通常药物不能完全吸收进入体内"
+                       "\\newline 即吸收系数F<100 \\%），能够进入体内的药量为FX_0。"
     },
     "2-26": {
         "text": "影响血管外重复给药稳态峰浓度的因素有哪些？",
         "options": {},
-        "answer": "",
-        "answer_text": "请参考答案纸第3题"
+        "answer": "latex:",
+        "answer_text": "解：\\newline"
+                       "\\newline 血管外重复给药的稳态峰浓度为：C^{ss}_{max} = \\frac{FX_0}{V}(\\frac{e^{-kt_{max}}}{1-e^{-k \\tau}})"
+                       "\\newline 影响稳态峰浓度的因素有：药物的消除速率常数k，吸收系数F，"
+                       "\\newline 给药剂量X_0，药物的表观分布容积V，稳态达峰时间t_{max}，给药间隔时间 \\tau。"
     },
     "2-27": {
         "text": "对患者进行间歇静脉滴注时，为什么消除半衰期为36h的药物比消除半衰期为6h的药物更难进行给药方案调整？",
@@ -368,8 +392,12 @@ questions = {
     "2-28": {
         "text": "什么是蓄积系数？静脉注射给药与血管外给药蓄积系数求算公式有什么不同？",
         "options": {},
-        "answer": "",
-        "answer_text": "请参考答案纸第4题"
+        "answer": "latex:",
+        "answer_text": "解：\\newline"
+                       "蓄积系数又叫蓄积因子或积累系数，系指稳态血药浓度与第一次给药后"
+                       "\\newline 的血药浓度的比值，以R表示。"
+                       "\\newline 静脉注射给药蓄积系数求算公式为： R=\\frac{1}{1-e^{-k \\tau}}"
+                       "\\newline 血管外给药蓄积系数求算公式为： R = \\frac{1}{(1-e^{-k \\tau})(1-e^{-k_a \\tau})}"
     },
     "2-29": {
         "text": "可用哪些参数描述血药浓度的波动程度？",
@@ -386,14 +414,32 @@ questions = {
     "2-31": {
         "text": "写出非线性消除过程Michaelis-Menten方程，说明Vm、Km的意义。",
         "options": {},
-        "answer": "",
-        "answer_text": "描述血药浓度波动程度的参数有：波动百分数、波动度(DF)、血药浓度变化率。"
+        "answer": "latex:",
+        "answer_text": "解：\\newline "
+                       "Michaelis-Menten方程如下所示："
+                       "\\newline v = Vm \\times \\frac{[S]}{km + [S]}"
+                       "\\newline Vm反映了酶系统的饱和水平和活性，"
+                       "\\newline 它表示在酶饱和的情况下，单位时间内酶催化转化底物的最大能力。"
+                       "\\newline Km表示酶与底物之间的亲和力或结合的紧密程度。"
     },
     "2-32": {
         "text": "试分析非线性药物动力学半衰期、血药浓度-时间曲线下面积及稳态血药浓度与剂量的关系。",
         "options": {},
-        "answer": "",
-        "answer_text": "请参考答案纸第5题"
+        "answer": "latex:",
+        "answer_text": "解：\\newline"
+                       "非线性药物动力学生物半衰期为 t_{1/2} = \\frac{\\frac{1}{2} C + 0.693K_m}{V_m} = \\frac{C+1.386K_m}{2V_m}"
+                       "\\newline 半衰期随血药浓度或给药剂量的不同而变化。"
+                       "\\newline 当C << Km，即血药浓度下降到很低时，t_{1/2} = \\frac{0.693k_m}{V_m},"
+                       "\\newline 血药浓度或剂量对生物半衰期影响不明显，表现为线性动力学特征，"
+                       "\\newline t_{1/2}与血药浓度无关；当C >> Km，即血药浓度较高时，t_{1/2} == \\frac{C}{2V_m},"
+                       "\\newline 表明生物半衰期随血药浓度或剂量的增加而延长。"
+                       "\\newline 血药浓度-时间曲线下面积为 AUC = \\int_{0}^{+ \\infty}Cdt = \\frac{X_0}{V_mV}(K_m + \\frac{X_0}{2V}),"
+                       "\\newline 表明AUC与剂量不成正比关系。当X_0/(2V)<<Km，即剂量较低时，"
+                       "\\newline 则 AUC = \\frac{K_mX_0}{V_mV},"
+                       "\\newline AUC与剂量成正比，相当于线性一级消除过程；当X0/(2V)>>Km，即剂量较大时，则 AUC = \\frac{X_0^2}{2V_mV^2},"
+                       "\\newline 表明AUC与剂量的平方成正比，此时，剂量的少量增加，会引起AUC较大的增加。"
+                       "\\newline 稳态血药浓度 C_{ss} = \\frac{K_mX_0}{\\tau V_m - X_0}, "
+                       "\\newline 当增加剂量时，稳态血药浓度的升高幅度高于正比例的增加程度。""\\newline""\\newline"
     },
     "2-33": {
         "text": "简述将统计矩应用于药物动力学的基础。",
@@ -410,8 +456,10 @@ questions = {
     "2-35": {
         "text": "单室模型静脉注射给药与血管外给药负荷剂量的求算有什么不同？",
         "options": {},
-        "answer": "",
-        "answer_text": "请参考答案纸第6题"
+        "answer": "latex:",
+        "answer_text": "解：\\newline"
+                       "单室模型静脉注射给药的负荷剂量求算公式为： X_0^{*} = \\frac{1}{1-e^{-k \\tau} \\cdot X_0}"
+                       "\\newline 单室模型血管外给药的负荷剂量求算公式为： X_0^{*} = \\frac{1}{(1-e^{-k \\tau})(1-e^{-k_a \\tau})} \\cdot X_0"
     },
     "2-37": {
         "text": "治疗药物监测在临床药学中有何应用？",
@@ -1577,19 +1625,23 @@ questions = {
         "text": "某患者口服某药500mg后，测得血药浓度如下：...... 已知F=1，求K，ka，tmax,Cmax，V，CL，AUC及给药后10h的血药浓度。",
         "options": {},
         "answer": "latex:",
-        "answer_text": "解: k=0.068h^{-1}, ka=0.247h^{-1}, tmax=7.25h, Cmax=29.66ug/ml, V=10.37L, CL=0.69L/h, AUC=724.6(ug.h/ml)"
+        "answer_text": "解: k=0.068h^{-1}, \\qquad ka=0.247h^{-1}, \\qquad tmax=7.25h, "
+                       "\\newline Cmax=29.66ug/ml, \\qquad V=10.37L, \\qquad CL=0.69L/h,"
+                       "\\newline AUC=724.6(ug.h/ml)"
     },
     "7-10": {
         "text": "某二室模型药物，静脉注射lOOmg，测得血药浓度一时间数据如下：\nt (h) 0.25 0.5 1.0 1.5 2.0 4.0 8.0 12.0 16.0\nC (mg/L) 43 32 20 14 11 6.5 2.8 1.2 0.52\n试求α，β，A，B，k12，k21，k10，VC。",
         "options": {},
         "answer": "latex:",
-        "answer_text": "解: α=1.842(h^{-1}), β=0.210(h^{-1}), A=46.88(mg/L), B=15.03(mg/L), k12=0.810(h^{-1}), k21=0.605(h^{-1}), k10=0.636(h^{-1}), VC"
+        "answer_text": "解: α=1.842(h^{-1}), \\qquad  β=0.210(h^{-1}), \\qquad  A=46.88(mg/L), "
+                       "\\newline B=15.03(mg/L), \\qquad  k12=0.810(h^{-1}), \\qquad  k21=0.605(h^{-1}), "
+                       "\\newline k10=0.636(h^{-1}), VC"
     },
     "7-11": {
         "text": "某患者体重50kg，肾功能正常，每8h静脉注射给予1mg/kg庆大霉素，已知庆大霉素的tl/2 =2h，V=O.2 L/kg。求稳态最大血药浓度、稳态最小血药浓度及平均稳态血药浓度。",
         "options": {},
         "answer": "latex:",
-        "answer_text": "解: C^{ss}_{max} = 5.33(mg/L), C^{ss}_{min} = 0.33(mg/L), \\overline{C_{ss}} = 1.80(mg/L)"
+        "answer_text": "解: C^{ss}_{max} = 5.33(mg/L), \\quad C^{ss}_{min} = 0.33(mg/L), \\quad \\overline{C_{ss}} = 1.80(mg/L)"
     },
     "7-12": {
         "text": "已知头孢噻肟的消除半衰期为1.5h，表观分布容积为0.17 L/kg。给某患者(体重75kg)连续3d每天静脉注射3次该药l.Og，所得的血药峰浓度为多少？",
@@ -1601,7 +1653,9 @@ questions = {
         "text": "在单室模型中，重复静脉注射给药，给药时间间隔为 ，给药剂量为X0 。①求 =tl/2和 =2tl/2时的 ；②达到50%、75%和90%的 ，需要多少个tl/2？",
         "options": {},
         "answer": "latex:",
-        "answer_text": "解: 当\\tau = t_{1/2}时,X^{ss}_{max} = X_0,当\\tau = 2t_{1/2}时, X^{ss}_{max} = 1.33X_0,当f_{ss(n)}=50\\%时,n\\tau = t_{1/2}, 当f_{ss(n)}=75\\%时,n\\tau = 2t_{1/2}, 当f_{ss(n)}=90\\%时,n\\tau = 3.32t_{1/2} "
+        "answer_text": "解: 当\\tau = t_{1/2}时,X^{ss}_{max} = X_0,当\\tau = 2t_{1/2}时, X^{ss}_{max} = 1.33X_0,"
+                       "\\newline 当f_{ss(n)}=50\\%时,n\\tau = t_{1/2}, "
+                       "\\newline 当f_{ss(n)}=75\\%时,n\\tau = 2t_{1/2}, 当f_{ss(n)}=90\\%时,n\\tau = 3.32t_{1/2} "
     },
     "7-14": {
         "text": "某患者每8h口服lOOmg舒马普坦，已知舒马普坦的总清除率为250ml/min，生物利用度约为14%。求5个剂量后的平均血药浓度。（假定已达到稳态）",
@@ -1610,28 +1664,36 @@ questions = {
         "answer_text": "解: \\overline{C_{ss}}=0.12(mg/L)"
     },
     "7-15": {
-        "text": "某药物按非线性动力学消除，已知Km为50mg/L，Vm为20mg/(L.h)，表观分布容积V为20L/kg。\n(1)若静脉注射给药lOmg/kg，试分析这种情况下该药物的消除动力学特征如何？\n(2)上述情况下，消除掉50%的药物，需要多长时间（即消除半衰期）?\n(3)如果静脉注射给药剂量为lOOmg/kg，则该药物的消除动力学特征又如何？",
+        "text": "某药物按非线性动力学消除，已知Km为50mg/L，Vm为20mg/(L.h)，表观分布容积V为20L/kg。\n(1)若静脉注射给药1Omg/kg，试分析这种情况下该药物的消除动力学特征如何？\n(2)上述情况下，消除掉50%的药物，需要多长时间（即消除半衰期）?\n(3)如果静脉注射给药剂量为lOOmg/kg，则该药物的消除动力学特征又如何？",
         "options": {},
         "answer": "latex:",
-        "answer_text": "解: (1)已知该药物按非线性动力学消除，C_0=X_0/V= 10/20=0.5mg/L，此时C_0<<K_m,因此，消除相当于线性一级动力学消除过程，消除速度常数K=20/50 =0.4h^{-1}。(2)上述情况下，消除掉50\\%的药物所需的时间即消除半衰期为t_{1/2}=0.693/k=0.693/0.4=1.73h。(3)当静脉注射给药剂量为lOOmg/kg时，C_0=X_0/V= 100/20=5mg/L，则该药物的消除动力学为非线性特征，符合Michaelis-Menten方程。"
+        "answer_text": "解: (1)已知该药物按非线性动力学消除，C_0=X_0/V= 10/20=0.5mg/L，"
+                       "\\newline 此时C_0<<K_m,因此，消除相当于线性一级动力学消除过程，"
+                       "\\newline 消除速度常数K=20/50 =0.4h^{-1}。"
+                       "\\newline (2)上述情况下，消除掉50\\%的药物所需的时间即消除半衰期为t_{1/2}=0.693/k=0.693/0.4=1.73h。"
+                       "\\newline (3)当静脉注射给药剂量为lOOmg/kg时，C_0=X_0/V= 100/20=5mg/L，"
+                       "\\newline 则该药物的消除动力学为非线性特征，符合Michaelis-Menten方程。"
     },
     "7-16": {
         "text": "某药物消除的Vm为lOumol/(L.h)，当该药浓度为4umol/L时，消除速度为5 umol/(L．h)。试问该药的Km为多少？当血药浓度降为1umol/L时药物的消除速度为多大？",
         "options": {},
         "answer": "latex:",
-        "answer_text": "解: (1)根据Michaelis-Menten方程有， 5=\\frac{10 \\times 4}{K_m + 4}, K_m=40 \\mu mol/L; (2) 当血药浓度降为1\\mu mol/L时，药物的消除速度为2[\\mu mol/(L．h)]"
+        "answer_text": "解: (1)根据Michaelis-Menten方程有， 5=\\frac{10 \\times 4}{K_m + 4}, K_m=40 \\mu mol/L; "
+                       "\\newline (2) 当血药浓度降为1\\mu mol/L时，药物的消除速度为2[\\mu mol/(L．h)]"
     },
     "7-17": {
         "text": "某药以50mg/h静脉滴注，7.5h后停止滴注，测得血药浓度数值见下表：\n\nt(h)\t0\t2\t4\t6\t7.5\t9\t12\t15\nC(ug/ml)\t0\t3.4\t5.4\t6.5\t7.0\t4.6\t2.0\t0.9\n\n试用统计矩方法计算参数ke, t1/2, CL,Vss各是多少？",
         "options": {},
         "answer": "latex:",
-        "answer_text": "解：对最后三组数据进行线性同归(lgC-t)，得：\\lambda=0.2719(h^{-1}), k_e= 0.2698(h^{-1}), t_{1/2}=0.693(h), V_{ss}=22.98(L), CL=6.2(L/h)"
+        "answer_text": "解：对最后三组数据进行线性同归(lgC-t)，得：\\lambda=0.2719(h^{-1}), "
+                       "\\newline k_e= 0.2698(h^{-1}), \\quad t_{1/2}=0.693(h), \\quad V_{ss}=22.98(L),  \\quad CL=6.2(L/h)"
     },
     "7-18": {
         "text": "某药物在经典药物动力学研究中属于双室模型，当静脉注射该药物1g时，得到下列药物浓度数据：\n\nt(h)\t0\t0.165\t0.5\t1.0\t1.5\t3.0\t5\t7.5\t10\nC(ug/ml)\t100\t65.03\t28.69\t10.04\t4.93\t2.29\t1.36\t0.71\t0.38\n\n试用统计矩方法计算参数β, t1/2(β), CL,Vss各是多少？",
         "options": {},
         "answer": "latex:",
-        "answer_text": "解：对曲线最后四点进行线性回归(lgC-t)，得：\\lambda=0.257(h^{-1}), \\beta= 0.657(h^{-1}), t_{1/2(\\beta)}=1.05(h), V_{ss}=26.6(L), CL=17.47(L/h)"
+        "answer_text": "解：对曲线最后四点进行线性回归(lgC-t)，得：\\lambda=0.257(h^{-1}), "
+                       "\\newline \\beta= 0.657(h^{-1}), \\quad t_{1/2(\\beta)}=1.05(h), \\quad V_{ss}=26.6(L), \\quad CL=17.47(L/h)"
     },
     "7-19": {
         "text": "双氯西林的蛋白结合率为97%，消除半衰期为42 min，表观分布容积为20L。若每6h静脉注射250mg双氯西林，求稳态游离浓度。",
@@ -1643,32 +1705,53 @@ questions = {
         "text": "已知某抗生素的消除半衰期为8h，治疗浓度范围为25 - 50mg/L，每次静脉注射剂量维持恒定，求给药间隔时间。",
         "options": {},
         "answer": "latex:",
-        "answer_text": "解: \\tau = 1.44t_{1/2} \\bullet  ln \\frac{C^{ss}_{max}}{C^{ss}_{min}} = 1.44 \\times 8 \\times ln \\frac{50}{25} = 8.0(h)"
+        "answer_text": "解: \\tau = 1.44t_{1/2} \\cdot  ln \\frac{C^{ss}_{max}}{C^{ss}_{min}} = 1.44 \\times 8 \\times ln \\frac{50}{25} = 8.0(h)"
     },
     "7-21": {
         "text": "一种符合单室模型的抗心律不齐药物，期望的血药浓度为5 mg/L，表观分布容积为0.173 L/kg，消除半衰期为2.0h。①一位成年男性患者（56岁，体重75kg）对药物治疗的反应不佳。测得其血药浓度为2 mg/L。如何调整静脉滴注速度以使血药浓度达到期望的5 mg/L?②若不给予负荷剂量，且其表观分布容积不变，要使血药浓度达到稳态的95%，需要多长时间？",
         "options": {},
         "answer": "latex:",
-        "answer_text": "解: 正常情况下， k_0 = C_{ss}kV = 5 \\times \\frac{0.693}{2} \\times 0.173 \\times 75 = 22.5(mg/h). ①当以上述静脉滴注速度给予该成年男性患者时，血药浓度为2 mg/L，说明药物在该患者的消除比正常人快，则: CL_{患者} = \\frac{k_0}{C_{ss, 患者}} = \\frac{22.5}{2} = 11.25(L/h), k_{0, 患者} = C_{ss}CL_{患者} = 5 \\times 11.25 = 56.2(mg/h). ② n= -3.32lg(1-f_{ss(n)})=-3.32lg(1-0.95)=4.32, nt_{1/2}=4.32 \\times 2 = 8.64 (h)"
+        "answer_text": "解: 正常情况下， k_0 = C_{ss}kV = 5 \\times \\frac{0.693}{2} \\times 0.173 \\times 75 = 22.5(mg/h). "
+                       "\\newline ①当以上述静脉滴注速度给予该成年男性患者时，血药浓度为2 mg/L，"
+                       "\\newline 说明药物在该患者的消除比正常人快，则: CL_{患者} = \\frac{k_0}{C_{ss, 患者}} = \\frac{22.5}{2} = 11.25(L/h), "
+                       "\\newline k_{0, 患者} = C_{ss}CL_{患者} = 5 \\times 11.25 = 56.2(mg/h). "
+                       "\\newline ② n= -3.32lg(1-f_{ss(n)})=-3.32lg(1-0.95)=4.32, nt_{1/2}=4.32 \\times 2 = 8.64 (h)"
     },
     "7-22": {
         "text": "1.	某药的有效血药浓度为2. 5ug/ml，欲制成每天给药1次的口服缓释制剂，请设计剂量（K=0.2h-1，ka=2.0h-1，F=l，V=8L）",
         "options": {},
         "answer": "latex:",
-        "answer_text": "解: 因为 C_{ss} = 2.5 \\mu g/ml, K = 0.2h^{-1}, ka = 2.0h^{-1}, F=1, V=8L, 我们需要计算剂量Dose。根据公式：C_{ss} = \\frac{Dose \\times F}{ka \\times V}, 将已知的值代入公式，得到：2.5 = \\frac{Dose \\times 1} {2.0 \\times 8}, 得到： 2.5 = \\frac{Dose}{16}, 得到：Dose = 2.5 \\times 16 = 40 \\mu g = 0.04 mg, 因此，设计的剂量为349 mg。"
+        "answer_text": "解: 因为 C_{ss} = 2.5 \\mu g/ml, K = 0.2h^{-1}, ka = 2.0h^{-1}, F=1, V=8L, "
+                       "\\newline 我们需要计算剂量Dose。根据公式：C_{ss} = \\frac{Dose \\times F}{ka \\times V}, "
+                       "\\newline 将已知的值代入公式，得到：2.5 = \\frac{Dose \\times 1} {2.0 \\times 8}, "
+                       "\\newline 得到： 2.5 = \\frac{Dose}{16}, 得到：Dose = 2.5 \\times 16 = 40 \\mu g = 0.04 mg, 因此，设计的剂量为349 mg。"
     },
     "7-23": {
         "text": "某药有静脉注射剂、口服片剂与栓剂三种制剂，经生物利用度研究，某受试者用三种制剂后得到的血药浓度数据如下表。请计算该受试者口服片剂和栓剂的绝对生物利用度，静脉注射剂、口服片剂的给药剂量均为300mg，栓剂的给药剂量为250mg。",
         "options": {},
         "answer": "latex:",
-        "answer_text": "解: 根据提示，我们可以使用梯形法计算每种制剂的AUC（曲线下面积），然后使用公式(14-7)计算口服片剂和栓剂的绝对生物利用度。首先，我们计算各剂型的AUC。根据给定的数据，我们可以使用梯形法来估计AUC。下面是每种制剂的AUC计算：静脉注射剂的AUC：AUC_{IV} = \\frac{(0.167+0.333)(332+301)}{2} + \\frac{(0.333+0.5)(301+277)}{2} + \\frac{(0.5+1)(277+259)}{2} + \\frac{(1+2)(259+221)}{2} + \\frac{(2+3)(221+175)}{2} + \\frac{(3+4)(175+140)}{2} + \\frac{(4+6)(140+76)}{2} + \\frac{(6+8)(76+46)}{2} + \\frac{(8+10)(46+35)}{2}, AUC_{IV} = 8949 \\mu g ⋅ h/mL. 口服片剂的AUC：AUC_{oral} = \\frac{(0.167+0.333)(16+36)}{2} + \\frac{(0.333+0.5)(36+53)}{2} + \\frac{(0.5+1)(53+82)}{2} + \\frac{(1+2)(82+168)}{2} + \\frac{(2+3)(168+164)}{2} + \\frac{(3+4)(164+150)}{2} + \\frac{(4+6)(150+112)}{2} + \\frac{(6+8)(112+54)}{2} + \\frac{(8+10)(54+27)}{2}, AUC_{oral} = 3085 \\mu g ⋅ h/mL. 栓剂的AUC：首先，我们需要进行剂量校正。由于栓剂的给药剂量为250 mg，而其他剂型的给药剂量为300 mg，我们需要将栓剂的AUC进行剂量校正。AUC_{rectal, corrected} = AUC_{rectal} \\times 250/300, 其中，AUC_{rectal}是栓剂的原始AUC。根据给定的数据，我们可以计算出口服片剂的绝对生物利用度为 75.66\\% ，栓剂的绝对生物利用度为 88.38\\%。"
+        "answer_text": "解: \\newline "
+                       "根据提示，我们可以使用梯形法计算每种制剂的AUC（曲线下面积），"
+                       "\\newline 然后使用公式(14-7)计算口服片剂和栓剂的绝对生物利用度。"
+                       "\\newline首先，我们计算各剂型的AUC。根据给定的数据，我们可以使用梯形法来估计AUC。"
+                       "\\newline 下面是每种制剂的AUC计算：静脉注射剂的AUC："
+                       "\\newline AUC_{IV} = \\frac{(0.167+0.333)(332+301)}{2} + \\frac{(0.333+0.5)(301+277)}{2} + \\frac{(0.5+1)(277+259)}{2} + \\frac{(1+2)(259+221)}{2} + "
+                       "\\newline \\frac{(2+3)(221+175)}{2} + \\frac{(3+4)(175+140)}{2} + \\frac{(4+6)(140+76)}{2} + \\frac{(6+8)(76+46)}{2} + "
+                       "\\newline \\frac{(8+10)(46+35)}{2}, AUC_{IV} = 8949 \\mu g ⋅ h/mL. "
+                       "\\newline 口服片剂的AUC：AUC_{oral} = \\frac{(0.167+0.333)(16+36)}{2} + \\frac{(0.333+0.5)(36+53)}{2} + \\frac{(0.5+1)(53+82)}{2} + "
+                       "\\newline \\frac{(1+2)(82+168)}{2} + \\frac{(2+3)(168+164)}{2} + \\frac{(3+4)(164+150)}{2} + \\frac{(4+6)(150+112)}{2} + "
+                       "\\newline \\frac{(6+8)(112+54)}{2} + \\frac{(8+10)(54+27)}{2}, AUC_{oral} = 3085 \\mu g ⋅ h/mL. "
+                       "\\newline 栓剂的AUC：首先，我们需要进行剂量校正。由于栓剂的给药剂量为250 mg，"
+                       "\\newline 而其他剂型的给药剂量为300 mg， 我们需要将栓剂的AUC进行剂量校正。"
+                       "\\newline AUC_{rectal, corrected} = AUC_{rectal} \\times 250/300, "
+                       "\\newline 其中，AUC_{rectal}是栓剂的原始AUC。根据给定的数据，"
+                       "\\newline 我们可以计算出口服片剂的绝对生物利用度为 75.66\\% ，"
+                       "\\newline 栓剂的绝对生物利用度为 88.38\\%。"
     }
 }
 
 def display_questions(start, end):
-    st.title('药代动力学试卷展示')
-    st.header('选择题')
-    st.subheader('[A型题]')
+    st.title('药物代谢动力学试卷展示')
 
     for question_id, question in questions.items():
         if start <= int(question_id) <= end:
@@ -1689,7 +1772,7 @@ def search_question(keyword):
     return results
 
 def main():
-    st.title("药代动力学试卷展示应用")
+    st.title("药物代谢动力学试卷展示应用")
     # display_questions(1,7)
     # 搜索框
     search_keyword = st.text_input('输入关键字搜索题目：')
@@ -1717,7 +1800,7 @@ def main():
                         rendered_latex = r"$$" + latex_code + r"$$"
                         st.markdown(rendered_latex, unsafe_allow_html=True)
                     else:
-                        st.markdown(f'答案：{question_data["answer"]} - <span style="background-color: yellow;">{question_data["answer_text"]}</span>', unsafe_allow_html=True)
+                        st.markdown(f'答案：{question_data["answer"]}  <span style="background-color: yellow;">{question_data["answer_text"]}</span>', unsafe_allow_html=True)
                     st.markdown('---')
                 else:
                     st.error("Question not found!")
@@ -1725,12 +1808,12 @@ def main():
             st.markdown('### 搜索结果：无匹配题目')
 
     # 显示所有题目
-    st.markdown('### 所有题目：')
-    for question_num, question_data in questions.items():
-        st.markdown(f'**题目 {question_num}:** {question_data["text"]}')
-        for option, text in question_data['options'].items():
-            st.markdown(f'- {option}. {text}')
-        st.markdown('---')
+    # st.markdown('### 所有题目：')
+    # for question_num, question_data in questions.items():
+    #     st.markdown(f'**题目 {question_num}:** {question_data["text"]}')
+    #     for option, text in question_data['options'].items():
+    #         st.markdown(f'- {option}. {text}')
+    #     st.markdown('---')
 
 
 if __name__ == '__main__':
