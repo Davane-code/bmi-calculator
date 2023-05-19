@@ -1773,7 +1773,8 @@ questions = {
                        "\\newline首先，我们计算各剂型的AUC。"
                        "\\newline 根据给定的数据，"
                        "\\newline 我们可以使用梯形法来估计AUC。"
-                       "\\newline 下面是每种制剂的AUC计算：静脉注射剂的AUC："
+                       "\\newline 下面是每种制剂的AUC计算："
+                       "\\newline 静脉注射剂的AUC："
                        "\\newline AUC_{IV} = \\frac{(0.167+0.333)(332+301)}{2} + \\frac{(0.333+0.5)(301+277)}{2} "
                        "\\newline + \\frac{(0.5+1)(277+259)}{2} + \\frac{(1+2)(259+221)}{2} + "
                        "\\newline \\frac{(2+3)(221+175)}{2} + \\frac{(3+4)(175+140)}{2} + \\frac{(4+6)(140+76)}{2} "
@@ -1791,7 +1792,8 @@ questions = {
                        "\\newline AUC_{rectal, corrected} = AUC_{rectal} \\times 250/300, "
                        "\\newline 其中，AUC_{rectal}是栓剂的原始AUC。"
                        "\\newline 根据给定的数据，"
-                       "\\newline 我们可以计算出口服片剂的绝对生物利用度为 75.66\\% ，"
+                       "\\newline 我们可以计算出口服片剂的"
+                       "\\newline 绝对生物利用度为 75.66\\% ，"
                        "\\newline 栓剂的绝对生物利用度为 88.38\\%。"
     }
 }
