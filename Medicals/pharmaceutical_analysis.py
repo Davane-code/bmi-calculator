@@ -3924,7 +3924,7 @@ questions = {
         "text": "取对乙酰氨基酚2.0g，加水100ml，加热溶解后冷却，滤过，取滤液25ml，依法检查氯化物（中国药典，附录VIIIA），所发生的浑浊反应与标准氯化钠溶液5.0ml（每1ml相当于10g的Cl-）制成的对照液比较，不得更浓，问氯化物的限量为多少？",
         "options": {},
         "answer": "latex:",
-        "answer_text": "L = \\frac{c \\times V } {m} \\ times 100 \\% = \\frac{0.01 \\times 5}{2 \\times 10^{3} \\ times \\frac{25}{100}} \\times 100 \\% = 0.01 \\%"
+        "answer_text": "L = \\frac{c \\times V } {m} \\times 100 \\% = \\frac{0.01 \\times 5}{2 \\times 10^{3} \\times \\frac{25}{100}} \\times 100 \\% = 0.01 \\%"
     },
     "7-3": {
         "text": "称取维生素C 0.5000g溶于1000ml的0.02mol/L的硫酸溶液中，精密吸取此溶液2ml，准确稀释至100ml，取此溶液在1cm厚的石英皿中，在245nm处的测定其吸光度是0.551，已知在245nm处的百分吸光系数为560，求维生素C的百分含量。",
