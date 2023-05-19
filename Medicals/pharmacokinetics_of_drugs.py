@@ -1791,7 +1791,7 @@ questions = {
                        "\\newline 我们需要将栓剂的AUC进行剂量校正。"
                        "\\newline AUC_{rectal, corrected} = AUC_{rectal} \\times 250/300, "
                        "\\newline 其中，AUC_{rectal}是栓剂的原始AUC。"
-                       "\\newline 根据给定的数据，"
+                       "\\newline 根据给定的数据, "
                        "\\newline 我们可以计算出口服片剂的"
                        "\\newline 绝对生物利用度为 75.66\\% ，"
                        "\\newline 栓剂的绝对生物利用度为 88.38\\%。"
