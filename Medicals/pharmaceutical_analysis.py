@@ -3750,7 +3750,7 @@ questions = {
         "text": "鉴别司可巴比妥钠和硫喷妥钠。",
         "options": {},
         "answer": "",
-        "answer_text": "                  司可巴比妥钠    硫喷妥钠\n碘试液         褪色                           -\n铜盐反应     紫色                       绿色"
+        "answer_text": "(注意看答案纸第一题)                  司可巴比妥钠    硫喷妥钠\n碘试液         褪色                           -\n铜盐反应     紫色                       绿色"
     },
     "6-2": {
         "text": "杂质限量的含义？",
@@ -3912,7 +3912,14 @@ questions = {
         "options": {},
         "answer": "",
         "answer_text": "含量均匀度"
-    }
+    },
+    # 计算题
+    "7-1": {
+        "text": "氨基水杨酸中间氨基酚的检查：称取本品3.0g，置50ml烧杯中，加无水乙醚25ml，用玻棒搅拌1min，注意将乙醚液滤入分液漏斗中，不溶物再用无水乙醚提取2次，每次25ml，乙醚液滤入同一分液漏斗中，加水10ml与甲基橙指示剂1滴。振摇后用盐酸标准溶液（0.02mol/L）滴定，并将滴定结果用空白试验校正，消耗盐酸标准溶液（0.02mol/L）不得过0.30ml。计算间氨基酚（Mr=109）的限量。",
+        "options": {},
+        "answer": "latex:",
+        "answer_text": "\\frac{0.02\\times 0.30 \\times 109 \\ times 10^{-3}}{30} \\times 100 \\% = 0.022 \\%"
+    },
 }
 
 def display_questions(start, end):
@@ -3962,9 +3969,12 @@ def main():
                     st.markdown(f"**{question_num}.{question_data['text']}**")
                     for option, text in question_data['options'].items():
                         st.markdown(f'- {option}. {text}')
-                    if question_data["answer"] == 'latex:':
+                    if question_data["answer"] == "latex:":
+                        latex_code = question_data["answer_text"]  # 获取公式文字的变量
+                        rendered_latex = r"$$" + latex_code + r"$$"
+                        st.markdown(rendered_latex, unsafe_allow_html=True)
+                    else:
                         st.markdown(f'答案：{question_data["answer"]} - <span style="background-color: yellow;">{question_data["answer_text"]}</span>', unsafe_allow_html=True)
-                    st.markdown(f'答案：{question_data["answer"]} - <span style="background-color: yellow;">{question_data["answer_text"]}</span>', unsafe_allow_html=True)
                     st.markdown('---')
                 else:
                     st.error("Question not found!")
