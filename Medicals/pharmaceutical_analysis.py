@@ -3797,7 +3797,7 @@ questions = {
         "answer_text": "0.3－0.7"
     },
     "6-9": {
-        "text": "药品质量标准分析方法验证的目的是______。验证内容有：。",
+        "text": "药品质量标准分析方法验证的目的是______。验证内容有：_______。",
         "options": {},
         "answer": "",
         "answer_text": "(1)证明所采用的方法适合于相应检测要求。(2)：准确度、精密度（包括重复性、中间精密度和重现性）、专属性、检测限、定量限、线性、范围和耐用性。"
@@ -3919,74 +3919,86 @@ questions = {
         "text": "氨基水杨酸中间氨基酚的检查：称取本品3.0g，置50ml烧杯中，加无水乙醚25ml，用玻棒搅拌1min，注意将乙醚液滤入分液漏斗中，不溶物再用无水乙醚提取2次，每次25ml，乙醚液滤入同一分液漏斗中，加水10ml与甲基橙指示剂1滴。振摇后用盐酸标准溶液（0.02mol/L）滴定，并将滴定结果用空白试验校正，消耗盐酸标准溶液（0.02mol/L）不得过0.30ml。计算间氨基酚（Mr=109）的限量。",
         "options": {},
         "answer": "latex:",
-        "answer_text": "\\frac{0.02\\times 0.30 \\times 109 \\times 10^{-3}}{3.0} \\times 100 \\% = 0.022 \\%"
+        "answer_text": "解: \\newline "
+                       "\\frac{0.02\\times 0.30 \\times 109 \\times 10^{-3}}{3.0} \\times 100 \\% = 0.022 \\%"
     },
     "7-2": {
         "text": "取对乙酰氨基酚2.0g，加水100ml，加热溶解后冷却，滤过，取滤液25ml，依法检查氯化物（中国药典，附录VIIIA），所发生的浑浊反应与标准氯化钠溶液5.0ml（每1ml相当于10g的Cl-）制成的对照液比较，不得更浓，问氯化物的限量为多少？",
         "options": {},
         "answer": "latex:",
-        "answer_text": "L = \\frac{c \\times V } {m} \\times 100 \\% = \\frac{0.01 \\times 5}{2 \\times 10^{3} \\times \\frac{25}{100}} \\times 100 \\% = 0.01 \\%"
+        "answer_text": "解: \\newline "
+                       "L = \\frac{c \\times V } {m} \\times 100 \\% = \\frac{0.01 \\times 5}{2 \\times 10^{3} \\times \\frac{25}{100}} \\times 100 \\% = 0.01 \\%"
     },
     "7-3": {
         "text": "称取维生素C 0.5000g溶于1000ml的0.02mol/L的硫酸溶液中，精密吸取此溶液2ml，准确稀释至100ml，取此溶液在1cm厚的石英皿中，在245nm处的测定其吸光度是0.551，已知在245nm处的百分吸光系数为560，求维生素C的百分含量。",
         "options": {},
         "answer": "latex:",
-        "answer_text": "\\% = \\frac{\\frac{0.551}{560\\times 1 \\times 100} \\times 50 \\times 1000}{0.5000} \\times 100 \\% = 98.4\\%"
+        "answer_text": "解: \\newline "
+                       "\\% = \\frac{\\frac{0.551}{560\\times 1 \\times 100} \\times 50 \\times 1000}{0.5000} \\times 100 \\% = 98.4\\%"
     },
     "7-4": {
         "text": "非那西丁含量测定：精密称取本品0.3630g，加稀盐酸回流1小时，放冷，用亚硝酸钠液（0.1010mol/L)滴定，用去20.00m1。每1ml亚硝酸钠液（0.1mol/L)相当于17.92mg的C10H13O2N。计算非那西丁的含量。",
         "options": {},
         "answer": "latex:",
-        "answer_text": "\\% = \\frac{\\frac{0.1010}{0.1} \\times 17.92 \\times 20.00 \\times 10^{-3}}{0.3630} \\times 100 \\% = 99.72 \\%"
+        "answer_text": "解: \\newline "
+                       "\\% = \\frac{\\frac{0.1010}{0.1} \\times 17.92 \\times 20.00 \\times 10^{-3}}{0.3630} \\times 100 \\% = 99.72 \\%"
     },
     "7-5": {
         "text": "司可巴比妥钠的测定：精密称定本品0.1012 g，，置250ml碘量瓶中，加水10ml，振摇使溶解，精密加溴滴定液(0.05mol/L)25ml，再加盐酸5ml，立即密塞并振摇1min，在暗处静置15min后，注意微开瓶塞，加碘化钾试液10ml，立即密塞，摇匀后用硫代硫酸钠滴定液（F=1.040）滴定，至近终点时，加淀粉指示液，继续滴定至蓝色消失，消耗硫代硫酸钠滴定液15.70ml，并将滴定结果用空白试验校正，空白试验消耗硫代硫酸钠滴定液23. 07ml，。每1ml溴滴定液0.05mol/L)相当于13.01mg的C12H17N2NaO3。计算司可巴比妥钠的含量。",
         "options": {},
         "answer": "latex:",
-        "answer_text": "\\% = \\frac{13.01 \\times (23.07-15.70) \\times 1.040 \\times 10^{-3}}{0.1012} \\times 100 \\% = 98.5 \\%"
+        "answer_text": "解: \\newline "
+                       "\\% = \\frac{13.01 \\times (23.07-15.70) \\times 1.040 \\times 10^{-3}}{0.1012} \\times 100 \\% = 98.5 \\%"
     },
     "7-6": {
         "text": "苯巴比妥0.1585g，加pH=9.6的缓冲溶液稀释至100.0ml，精密量取5ml，同法稀释至200.0ml，摇匀，滤过，再取续滤液25.0ml稀释至100.0ml作为供试品溶液；另精密称取苯巴比妥对照品适量，同法稀释成10.1g/ml的溶液作为对照品溶液。取上述两种溶液，照分光光度法，在240nm波长处分别测得供试品和对照品的吸收度分别为0.427和0.438，计算苯巴比妥的含量。",
         "options": {},
         "answer": "latex:",
-        "answer_text": "D = 160 \\newline \\% = \\frac{\\frac{0.427}{0.438} \\times 10.1 \\times 160 \\times 100 \\times 10^{-6}}{0.1585} \\times 100 \\% = \\frac{0.1575}{0.1585} \\times 100 \\% = 99.4 \\%"
+        "answer_text": "解: \\newline "
+                       "D = 160 \\newline \\% = \\frac{\\frac{0.427}{0.438} \\times 10.1 \\times 160 \\times 100 \\times 10^{-6}}{0.1585} \\times 100 \\% = \\frac{0.1575}{0.1585} \\times 100 \\% = 99.4 \\%"
     },
     "7-7": {
         "text": "取乙酰水杨酸1.5040g，准确加入NaOH滴定液（0.5mol/L）50.0ml，水浴上煮沸15min，防冷后以酚酞做指示剂，用H2SO4滴定液（0.25mol/L，F=1.004）滴定，并将滴定结果用空白试验校正，每1ml NaOH滴定液（0.5mol/L）相当于45.04mg C9H8O4。样品消耗H2SO4滴定液（0.25mol/L，F=1.004）17.05ml，空白消耗49.95ml，计算乙酰水杨酸含量。",
         "options": {},
         "answer": "latex:",
-        "answer_text": "\\frac{(49.95-17.05) \\times 45.04 \\times 10^{-3} \\times 1.004}{1.5040} \\times 100 \\% = \\frac{1.487}{1.5040} \\times 100 \\% = 98.87\\%"
+        "answer_text": "解: \\newline "
+                       "\\frac{(49.95-17.05) \\times 45.04 \\times 10^{-3} \\times 1.004}{1.5040} \\times 100 \\% = \\frac{1.487}{1.5040} \\times 100 \\% = 98.87\\%"
     },
     "7-8": {
         "text": "非水滴定法测定重酒石酸去甲肾上腺素含量：测定时温度20°C，精密称取本品0.2160g，加冰醋酸10ml溶解后，加结晶紫指示剂1滴，用高氯酸滴定液（0.1mol/L）滴定，至溶液显蓝色，并将滴定结果用空白试验校正。已知高氯酸滴定液（0.1mol/L）的F=1.027（ 23°C ）,冰醋酸体积膨胀系数为1.1´10-3/ °C。1ml高氯酸滴定液（0.1mol/L）相当于31.93mg C8H11N3O样品，样品消耗高氯酸滴定液体积为6.50ml，空白消耗0.02ml。①	样品测定时高氯酸滴定液（0.1mol/L）的F=1.027吗？为什么？②	求重酒石酸去甲肾上腺素含量。",
         "options": {},
         "answer": "latex:",
-        "answer_text": "① Nt = \\frac{N_0}{1+0.0011(t_1 - t_0)} = \\frac{0.1027}{1+0.0011(20-23)} = \\frac{0.1027}{0.9967} = 0.1030, \\newline F=\\frac{0.1030}{0.1}=1.030"
+        "answer_text": "解: \\newline "
+                       "① Nt = \\frac{N_0}{1+0.0011(t_1 - t_0)} = \\frac{0.1027}{1+0.0011(20-23)} = \\frac{0.1027}{0.9967} = 0.1030, \\newline F=\\frac{0.1030}{0.1}=1.030"
                        "\\newline ② 重酒石酸去甲肾上腺素含量: \\newline \\frac{31.93 \\times (6.50-0.02) \\times 10^{-3} \\times 1.030}{0.2160} \\times 100 \\% = \\frac{0.213}{0.2160} \\times 100 \\% = 98.7 \\%"
     },
     "7-9": {
         "text": "异戊巴比妥钠取样量为0.2052g，依法用硝酸银滴定液（0.1010mol/L）滴定，消耗8.10ml，每1ml硝酸银滴定液(0.1mol/L) 相当于24.83mg的C11H17N2NaO3。计算异戊巴比妥钠的含量。",
         "options": {},
         "answer": "latex:",
-        "answer_text": "\\frac{24.83 \\times 8.10 \\times 10^{-3} \\times \\frac{0.1010}{0.1}}{0.2052} \\times 100 \\% = 99.0 \\%"
+        "answer_text": "解: \\newline "
+                       "\\frac{24.83 \\times 8.10 \\times 10^{-3} \\times \\frac{0.1010}{0.1}}{0.2052} \\times 100 \\% = 99.0 \\%"
     },
     "7-10": {
         "text": "维生素B1片含量测定：\n取本品20片，精密称定，其总重量为2.3695g，研细，精密称取片粉0.3608g，置100ml容量瓶中，加盐酸溶液（9®1000）约70ml，振摇15min，使维生素B1溶解，加盐酸溶液（9®1000）稀释至刻度，摇匀，用干燥滤纸滤过，弃去初滤液，精密量取续滤液5ml，置100ml容量瓶，加盐酸溶液（9®1000）稀释至刻度，摇匀。以分光光度法在246nm波长处测定吸收度A=0.615，已知维生素B1的E1%1cm=421，维生素B1的标示量为10mg/片，求维生素B1的标示量%。",
         "options": {},
         "answer": "latex:",
-        "answer_text": "\\frac{0.615 \\times (100/5)}{421} \\times \\frac{2.3695/20}{0.3608 \\times 10 \\times 10^{-3}} = 95.94\\%"
+        "answer_text": "解: \\newline "
+                       "\\frac{0.615 \\times (100/5)}{421} \\times \\frac{2.3695/20}{0.3608 \\times 10 \\times 10^{-3}} = 95.94\\%"
     },
     "7-11": {
         "text": "维生素E中游离生育酚的检查：\n取维生素E样品0.10g，加无水乙醇5ml溶解，加二苯胺试液1滴，用硫酸铈滴定液（0.01mol/L）滴定，消耗硫酸铈滴定液（0.01mol/L） 不得超过1.0ml，求游离生育酚的限度。",
         "options": {},
         "answer": "latex:",
-        "answer_text": "\\frac{\\frac{1}{2}  \\times 0.01 \\times 1.0 \\times 10^{-3} \\times 43.07}{0.10} = 2.354 \\%"
+        "answer_text": "解: \\newline "
+                       "\\frac{\\frac{1}{2}  \\times 0.01 \\times 1.0 \\times 10^{-3} \\times 43.07}{0.10} = 2.354 \\%"
     },
     "7-12": {
         "text": "已知M（游离生育酚）=430.7g/mol 维生素A胶丸含量测定：精密称取维生素胶丸内容物适量至10ml容量瓶，用环己烷稀释至刻度，摇匀，吸取1ml，置100ml容量瓶，用环己烷稀释至刻度，使浓度为9~15U/ml。已知内容物平均质量为90.0mg，标示量为3000U/丸，求取样量范围。",
         "options": {},
         "answer": "latex:",
-        "answer_text": "设称取量为w "
+        "answer_text": "解: \\newline "
+                       "设称取量为w "
                        "\\newline \\frac{w}{10} \\times \\frac{1}{100} \\times {3000}{90.0} = 9~15"
                        "\\newline \\therefore w为270mg ~ 450mg"
     },
@@ -4004,7 +4016,8 @@ questions = {
         "求：维生素A的标示百分含量。",
         "options": {},
         "answer": "latex:table",
-        "answer_text": "由结果知，需计算校正吸收度:"
+        "answer_text": "解: \\newline "
+                       "由结果知，需计算校正吸收度:"
                        "\\newline A_{328(较正)} = 3.52(2 \\times 0.652 - 0.584 - 0.534) = 0.655"
                        "\\newline 然后计算校正吸收度与未校正吸收度相差的百分数:"
                        "\\newline \\frac{0.655-0.652}{0.652} \\times 100 = 0.5 \\%"
@@ -4021,13 +4034,16 @@ questions = {
         "text": "精密称取磺胺异噁唑0.5000g，加二甲基甲酰胺适量使溶解，加偶氮紫指示液3滴，用甲醇钠滴定液（0.09980mol/L）滴定至终点，结果消耗滴定液18.65ml，空白试验消耗滴定液0.09ml，每1ml甲醇钠滴定液（0.1mol/L）相当于26.73mgC11H13N3O3S，求磺胺异噁唑的含量。",
         "options": {},
         "answer": "latex:",
-        "answer_text": "\\frac{26.73 \\times (18.65 - 0.09) \\times 10^{-3} \\times \\frac{0.09980}{0.1}}{0.5000} \\times 100 \\% = 99.0\\%"
+        "answer_text": "解: \\newline "
+                       "\\frac{26.73 \\times (18.65 - 0.09) \\times 10^{-3} \\times \\frac{0.09980}{0.1}}{0.5000} \\times 100 \\% = 99.0\\%"
     },
     "7-15": {
         "text": "取标示量为15mg的苯巴比妥片10片（n=10）检查含量均匀度，测得每一片的含量分别为：14.2mg, 15.8mg, 14.9mg, 14.1mg, 15.2mg, 14.3mg, 14.5mg, 14.9mg, 15.8mg和14.5mg，按含量均匀度限度为15%，计算该片剂的含量均匀度是否符合规定？",
         "options": {},
         "answer": "latex:",
-        "answer_text": "\\%"
+        "answer_text":
+        "解: \\newline "   
+        "\\%"
         "\\newline 94.7; 105.3; 99.3; 101.3; 94.0;"
         "\\newline 95.3; 96.7; 99.3; 105.3; 96.7"
         "\\newline \\overline x = 98.79"
@@ -4107,7 +4123,7 @@ def main():
                         rendered_latex = r"$$" + latex_code + r"$$"
                         st.markdown(rendered_latex, unsafe_allow_html=True)
                     else:
-                        st.markdown(f'答案：{question_data["answer"]} - <span style="background-color: yellow;">{question_data["answer_text"]}</span>', unsafe_allow_html=True)
+                        st.markdown(f'答案：{question_data["answer"]} <span style="background-color: yellow;">{question_data["answer_text"]}</span>', unsafe_allow_html=True)
                     st.markdown('---')
                 else:
                     st.error("Question not found!")
@@ -4115,12 +4131,12 @@ def main():
             st.markdown('### 搜索结果：无匹配题目')
 
     # 显示所有题目
-    st.markdown('### 所有题目：')
-    for question_num, question_data in questions.items():
-        st.markdown(f'**题目 {question_num}:** {question_data["text"]}')
-        for option, text in question_data['options'].items():
-            st.markdown(f'- {option}. {text}')
-        st.markdown('---')
+    # st.markdown('### 所有题目：')
+    # for question_num, question_data in questions.items():
+    #     st.markdown(f'**题目 {question_num}:** {question_data["text"]}')
+    #     for option, text in question_data['options'].items():
+    #         st.markdown(f'- {option}. {text}')
+    #     st.markdown('---')
 
 
 if __name__ == '__main__':
