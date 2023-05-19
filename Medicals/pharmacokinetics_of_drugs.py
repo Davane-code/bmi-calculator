@@ -360,15 +360,18 @@ questions = {
         "answer_text": "解：\\newline"
                        "\\newline 达坪分数是指第n次给药后的平均血药浓度 \\overline C_n "
                        "\\newline 与稳态平均血药浓度\\overline C_{ss} 相比，"
-                       "\\newline 相当于稳态平均血药浓度\\overline C_{ss} 的分数，以上f_{ss(n)}表示。"
+                       "\\newline 相当于稳态平均血药浓度\\overline C_{ss} 的分数，"
+                       "\\newline 以上f_{ss(n)}表示。"
                        "\\newline 静脉注射给药的达坪分数求算公式为:"
                        "f_{ss(n} = 1 - e^{-nk \\tau}"
                        "\\newline 血管外给药达坪分数求算公式为："
                        "\\newline f_{ss(n)} = 1 - \\frac{k_a e^{-nk \\tau} - ke^{-nk_a \\tau}}{k_a -k}"
                        "\\newline 这是由于血管外给药时药物有一个吸收过程，"
                        "\\newline 吸收速率常数k_a的"
-                       "\\newline 大小会影响药物达到稳态的分数。只有当k_a>>k，在\\tau时吸收基本结束的情况下，"
-                       "\\newline 才可以不考虑k_a对f_{ss(n)}的影响，此时f_{ss(n)} = 1-e^{-nk\\tau}"
+                       "\\newline 大小会影响药物达到稳态的分数。"
+                       "\\newline 只有当k_a>>k，在\\tau时吸收基本结束的情况下，"
+                       "\\newline 才可以不考虑k_a对f_{ss(n)}的影响，"
+                       "\\newline 此时f_{ss(n)} = 1-e^{-nk\\tau}"
     },
     "2-25": {
         "text": "重复静脉注射给药与血管外重复给药平均稳态血药浓度求算公式有何不同？为什么？",
@@ -1687,19 +1690,25 @@ questions = {
         "text": "某药物按非线性动力学消除，已知Km为50mg/L，Vm为20mg/(L.h)，表观分布容积V为20L/kg。\n(1)若静脉注射给药1Omg/kg，试分析这种情况下该药物的消除动力学特征如何？\n(2)上述情况下，消除掉50%的药物，需要多长时间（即消除半衰期）?\n(3)如果静脉注射给药剂量为lOOmg/kg，则该药物的消除动力学特征又如何？",
         "options": {},
         "answer": "latex:",
-        "answer_text": "解: (1)已知该药物按非线性动力学消除，C_0=X_0/V= 10/20=0.5mg/L，"
-                       "\\newline 此时C_0<<K_m,因此，消除相当于线性一级动力学消除过程，"
+        "answer_text": "解: (1)已知该药物按非线性动力学消除，"
+                       "\\newline C_0=X_0/V= 10/20=0.5mg/L，"
+                       "\\newline 此时C_0<<K_m,因此，"
+                       "\\newline 消除相当于线性一级动力学消除过程，"
                        "\\newline 消除速度常数K=20/50 =0.4h^{-1}。"
-                       "\\newline (2)上述情况下，消除掉50\\%的药物所需的时间即消除半衰期为t_{1/2}=0.693/k=0.693/0.4=1.73h。"
+                       "\\newline (2)上述情况下，"
+                       "\\newline 消除掉50\\%的药物所需的时间即消除半衰期为"
+                       "\\newline t_{1/2}=0.693/k=0.693/0.4=1.73h。"
                        "\\newline (3)当静脉注射给药剂量为lOOmg/kg时，C_0=X_0/V= 100/20=5mg/L，"
-                       "\\newline 则该药物的消除动力学为非线性特征，符合Michaelis-Menten方程。"
+                       "\\newline 则该药物的消除动力学为非线性特征，"
+                       "\\newline 符合Michaelis-Menten方程。"
     },
     "7-16": {
         "text": "某药物消除的Vm为lOumol/(L.h)，当该药浓度为4umol/L时，消除速度为5 umol/(L．h)。试问该药的Km为多少？当血药浓度降为1umol/L时药物的消除速度为多大？",
         "options": {},
         "answer": "latex:",
         "answer_text": "解: (1)根据Michaelis-Menten方程有， 5=\\frac{10 \\times 4}{K_m + 4}, K_m=40 \\mu mol/L; "
-                       "\\newline (2) 当血药浓度降为1\\mu mol/L时，药物的消除速度为2[\\mu mol/(L．h)]"
+                       "\\newline (2) 当血药浓度降为1\\mu mol/L时，"
+                       "\\newline 药物的消除速度为2[\\mu mol/(L．h)]"
     },
     "7-17": {
         "text": "某药以50mg/h静脉滴注，7.5h后停止滴注，测得血药浓度数值见下表：\n\nt(h)\t0\t2\t4\t6\t7.5\t9\t12\t15\nC(ug/ml)\t0\t3.4\t5.4\t6.5\t7.0\t4.6\t2.0\t0.9\n\n试用统计矩方法计算参数ke, t1/2, CL,Vss各是多少？",
@@ -1719,7 +1728,9 @@ questions = {
         "text": "双氯西林的蛋白结合率为97%，消除半衰期为42 min，表观分布容积为20L。若每6h静脉注射250mg双氯西林，求稳态游离浓度。",
         "options": {},
         "answer": "latex:",
-        "answer_text": "解: \\overline{C_{ss}} = \\frac{X_0}{kV\\tau} = \\frac{250}{\\frac{0.693}{42}\\times 20 \\times 6 \\times 60} = 2.1(\\mu g/ml) 由于双氯西林的蛋白结合率为97\\%，则游离药物为3\\%，游离药物浓度为0.03×2.1=0.063(JLg/ml)"
+        "answer_text": "解: \\overline{C_{ss}} = \\frac{X_0}{kV\\tau} = \\frac{250}{\\frac{0.693}{42}\\times 20 \\times 6 \\times 60} = 2.1(\\mu g/ml) 由于双氯西林的蛋白结合率为97\\%，"
+                       "\\newline 则游离药物为"
+                       "\\newline 3\\%，游离药物浓度为0.03×2.1=0.063(JLg/ml)"
     },
     "7-20": {
         "text": "已知某抗生素的消除半衰期为8h，治疗浓度范围为25 - 50mg/L，每次静脉注射剂量维持恒定，求给药间隔时间。",
@@ -1732,7 +1743,8 @@ questions = {
         "options": {},
         "answer": "latex:",
         "answer_text": "解: 正常情况下， k_0 = C_{ss}kV = 5 \\times \\frac{0.693}{2} \\times 0.173 \\times 75 = 22.5(mg/h). "
-                       "\\newline ①当以上述静脉滴注速度给予该成年男性患者时，血药浓度为2 mg/L，"
+                       "\\newline ①当以上述静脉滴注速度给予该成年男性患者时，"
+                       "\\newline 血药浓度为2 mg/L，"
                        "\\newline 说明药物在该患者的消除比正常人快，则: CL_{患者} = \\frac{k_0}{C_{ss, 患者}} = \\frac{22.5}{2} = 11.25(L/h), "
                        "\\newline k_{0, 患者} = C_{ss}CL_{患者} = 5 \\times 11.25 = 56.2(mg/h). "
                        "\\newline ② n= -3.32lg(1-f_{ss(n)})=-3.32lg(1-0.95)=4.32, nt_{1/2}=4.32 \\times 2 = 8.64 (h)"
@@ -1751,10 +1763,13 @@ questions = {
         "options": {},
         "answer": "latex:",
         "answer_text": "解: \\newline "
-                       "根据提示，我们可以使用梯形法计算每种制剂的AUC（曲线下面积），"
-                       "\\newline 然后使用公式(14-7)计算口服片剂和栓剂的绝对生物利用度。"
+                       "根据提示，我们可以使用梯形法计算每种制剂"
+                       "\\newline 的AUC（曲线下面积），"
+                       "\\newline 然后使用公式(14-7)"
+                       "\\newline 计算口服片剂和栓剂的绝对生物利用度。"
                        "\\newline首先，我们计算各剂型的AUC。"
-                       "\\newline 根据给定的数据，我们可以使用梯形法来估计AUC。"
+                       "\\newline 根据给定的数据，"
+                       "\\newline 我们可以使用梯形法来估计AUC。"
                        "\\newline 下面是每种制剂的AUC计算：静脉注射剂的AUC："
                        "\\newline AUC_{IV} = \\frac{(0.167+0.333)(332+301)}{2} + \\frac{(0.333+0.5)(301+277)}{2} "
                        "\\newline + \\frac{(0.5+1)(277+259)}{2} + \\frac{(1+2)(259+221)}{2} + "
@@ -1766,10 +1781,13 @@ questions = {
                        "\\newline \\frac{(1+2)(82+168)}{2} + \\frac{(2+3)(168+164)}{2} + \\frac{(3+4)(164+150)}{2} "
                        "\\newline + \\frac{(4+6)(150+112)}{2} + "
                        "\\newline \\frac{(6+8)(112+54)}{2} + \\frac{(8+10)(54+27)}{2}, AUC_{oral} = 3085 \\mu g ⋅ h/mL. "
-                       "\\newline 栓剂的AUC：首先，我们需要进行剂量校正。由于栓剂的给药剂量为250 mg，"
-                       "\\newline 而其他剂型的给药剂量为300 mg， 我们需要将栓剂的AUC进行剂量校正。"
+                       "\\newline 栓剂的AUC：首先，我们需要进行剂量校正。"
+                       "\\newline 由于栓剂的给药剂量为250 mg，"
+                       "\\newline 而其他剂型的给药剂量为300 mg， "
+                       "\\newline 我们需要将栓剂的AUC进行剂量校正。"
                        "\\newline AUC_{rectal, corrected} = AUC_{rectal} \\times 250/300, "
-                       "\\newline 其中，AUC_{rectal}是栓剂的原始AUC。根据给定的数据，"
+                       "\\newline 其中，AUC_{rectal}是栓剂的原始AUC。"
+                       "\\newline 根据给定的数据，"
                        "\\newline 我们可以计算出口服片剂的绝对生物利用度为 75.66\\% ，"
                        "\\newline 栓剂的绝对生物利用度为 88.38\\%。"
     }
