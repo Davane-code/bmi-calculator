@@ -2,6 +2,7 @@
 # Author : David Vane
 
 import streamlit as st
+import pandas as pd
 
 questions = {
     "1-1": {
@@ -3942,13 +3943,98 @@ questions = {
         "text": "司可巴比妥钠的测定：精密称定本品0.1012 g，，置250ml碘量瓶中，加水10ml，振摇使溶解，精密加溴滴定液(0.05mol/L)25ml，再加盐酸5ml，立即密塞并振摇1min，在暗处静置15min后，注意微开瓶塞，加碘化钾试液10ml，立即密塞，摇匀后用硫代硫酸钠滴定液（F=1.040）滴定，至近终点时，加淀粉指示液，继续滴定至蓝色消失，消耗硫代硫酸钠滴定液15.70ml，并将滴定结果用空白试验校正，空白试验消耗硫代硫酸钠滴定液23. 07ml，。每1ml溴滴定液0.05mol/L)相当于13.01mg的C12H17N2NaO3。计算司可巴比妥钠的含量。",
         "options": {},
         "answer": "latex:",
-        "answer_text": "\\% = \\frac{13.01 \\times (23.07-15.70) \\times 1.010 \\times 10^{-3}}{0.1012} \\times 100 \\% = 98.5 \\%"
+        "answer_text": "\\% = \\frac{13.01 \\times (23.07-15.70) \\times 1.040 \\times 10^{-3}}{0.1012} \\times 100 \\% = 98.5 \\%"
     },
     "7-6": {
         "text": "苯巴比妥0.1585g，加pH=9.6的缓冲溶液稀释至100.0ml，精密量取5ml，同法稀释至200.0ml，摇匀，滤过，再取续滤液25.0ml稀释至100.0ml作为供试品溶液；另精密称取苯巴比妥对照品适量，同法稀释成10.1g/ml的溶液作为对照品溶液。取上述两种溶液，照分光光度法，在240nm波长处分别测得供试品和对照品的吸收度分别为0.427和0.438，计算苯巴比妥的含量。",
         "options": {},
         "answer": "latex:",
-        "answer_text": "D = 160, \\% = \\frac{\\frac{0.427}{0.438} \\times 10.1 \\times 160 \\times 100 \\times 10^{-6}}{0.1585} \\times 100 \\% = \\frac{0.1575}{0.1585} \\times 100 \\% = 99.4 \\%"
+        "answer_text": "D = 160 \\newline \\% = \\frac{\\frac{0.427}{0.438} \\times 10.1 \\times 160 \\times 100 \\times 10^{-6}}{0.1585} \\times 100 \\% = \\frac{0.1575}{0.1585} \\times 100 \\% = 99.4 \\%"
+    },
+    "7-7": {
+        "text": "取乙酰水杨酸1.5040g，准确加入NaOH滴定液（0.5mol/L）50.0ml，水浴上煮沸15min，防冷后以酚酞做指示剂，用H2SO4滴定液（0.25mol/L，F=1.004）滴定，并将滴定结果用空白试验校正，每1ml NaOH滴定液（0.5mol/L）相当于45.04mg C9H8O4。样品消耗H2SO4滴定液（0.25mol/L，F=1.004）17.05ml，空白消耗49.95ml，计算乙酰水杨酸含量。",
+        "options": {},
+        "answer": "latex:",
+        "answer_text": "\\frac{(49.95-17.05) \\times 45.04 \\times 10^{-3} \\times 1.004}{1.5040} \\times 100 \\% = \\frac{1.487}{1.5040} \\times 100 \\% = 98.87\\%"
+    },
+    "7-8": {
+        "text": "非水滴定法测定重酒石酸去甲肾上腺素含量：测定时温度20°C，精密称取本品0.2160g，加冰醋酸10ml溶解后，加结晶紫指示剂1滴，用高氯酸滴定液（0.1mol/L）滴定，至溶液显蓝色，并将滴定结果用空白试验校正。已知高氯酸滴定液（0.1mol/L）的F=1.027（ 23°C ）,冰醋酸体积膨胀系数为1.1´10-3/ °C。1ml高氯酸滴定液（0.1mol/L）相当于31.93mg C8H11N3O样品，样品消耗高氯酸滴定液体积为6.50ml，空白消耗0.02ml。①	样品测定时高氯酸滴定液（0.1mol/L）的F=1.027吗？为什么？②	求重酒石酸去甲肾上腺素含量。",
+        "options": {},
+        "answer": "latex:",
+        "answer_text": "① Nt = \\frac{N_0}{1+0.0011(t_1 - t_0)} = \\frac{0.1027}{1+0.0011(20-23)} = \\frac{0.1027}{0.9967} = 0.1030, \\newline F=\\frac{0.1030}{0.1}=1.030"
+                       "\\newline ② 重酒石酸去甲肾上腺素含量: \\newline \\frac{31.93 \\times (6.50-0.02) \\times 10^{-3} \\times 1.030}{0.2160} \\times 100 \\% = \\frac{0.213}{0.2160} \\times 100 \\% = 98.7 \\%"
+    },
+    "7-9": {
+        "text": "异戊巴比妥钠取样量为0.2052g，依法用硝酸银滴定液（0.1010mol/L）滴定，消耗8.10ml，每1ml硝酸银滴定液(0.1mol/L) 相当于24.83mg的C11H17N2NaO3。计算异戊巴比妥钠的含量。",
+        "options": {},
+        "answer": "latex:",
+        "answer_text": "\\frac{24.83 \\times 8.10 \\times 10^{-3} \\times \\frac{0.1010}{0.1}}{0.2052} \\times 100 \\% = 99.0 \\%"
+    },
+    "7-10": {
+        "text": "维生素B1片含量测定：\n取本品20片，精密称定，其总重量为2.3695g，研细，精密称取片粉0.3608g，置100ml容量瓶中，加盐酸溶液（9®1000）约70ml，振摇15min，使维生素B1溶解，加盐酸溶液（9®1000）稀释至刻度，摇匀，用干燥滤纸滤过，弃去初滤液，精密量取续滤液5ml，置100ml容量瓶，加盐酸溶液（9®1000）稀释至刻度，摇匀。以分光光度法在246nm波长处测定吸收度A=0.615，已知维生素B1的E1%1cm=421，维生素B1的标示量为10mg/片，求维生素B1的标示量%。",
+        "options": {},
+        "answer": "latex:",
+        "answer_text": "\\frac{0.615 \\times (100/5)}{421} \\times \\frac{2.3695/20}{0.3608 \\times 10 \\times 10^{-3}} = 95.94\\%"
+    },
+    "7-11": {
+        "text": "维生素E中游离生育酚的检查：\n取维生素E样品0.10g，加无水乙醇5ml溶解，加二苯胺试液1滴，用硫酸铈滴定液（0.01mol/L）滴定，消耗硫酸铈滴定液（0.01mol/L） 不得超过1.0ml，求游离生育酚的限度。",
+        "options": {},
+        "answer": "latex:",
+        "answer_text": "\\frac{\\frac{1}{2}  \\times 0.01 \\times 1.0 \\times 10^{-3} \\times 43.07}{0.10} = 2.354 \\%"
+    },
+    "7-12": {
+        "text": "已知M（游离生育酚）=430.7g/mol 维生素A胶丸含量测定：精密称取维生素胶丸内容物适量至10ml容量瓶，用环己烷稀释至刻度，摇匀，吸取1ml，置100ml容量瓶，用环己烷稀释至刻度，使浓度为9~15U/ml。已知内容物平均质量为90.0mg，标示量为3000U/丸，求取样量范围。",
+        "options": {},
+        "answer": "latex:",
+        "answer_text": "设称取量为w "
+                       "\\newline \\frac{w}{10} \\times \\frac{1}{100} \\times {3000}{90.0} = 9~15"
+                       "\\newline \\therefore w为270mg ~ 450mg"
+    },
+    "7-13": {
+        "text": "维生素AD胶丸中维生素A的含量测定 已知：平均胶丸重为0.0815g 维生素A的标示量为10000IU/丸 取样："
+        "L=1cm"
+        "测定数据如下表："
+        "波长"
+        "吸收度	比值	规定值	比值差"
+        "300	0.374		0.555"
+        "316	0.584		0.907"
+        "328	0.652		1"
+        "340	0.534		0.811"
+        "360	0.211		0.299"
+        "求：维生素A的标示百分含量。",
+        "options": {},
+        "answer": "latex:table",
+        "answer_text": "由结果知，需计算校正吸收度:"
+                       "\\newline A_{328(较正)} = 3.52(2 \\times 0.652 - 0.584 - 0.534) = 0.655"
+                       "\\newline 然后计算校正吸收度与未校正吸收度相差的百分数:"
+                       "\\newline \\frac{0.655-0.652}{0.652} \\times 100 = 0.5 \\%"
+                       "\\newline 由此可知，应该用测得的328nm处的吸收度计算。"
+                       "\\newline E^{1\\%}_{1cm} = \\frac{A}{CL}"
+                       "\\newline C = \\frac{0.1279}{100} \\times \\frac{2}{25} \\times 100 = 0.010232 g/100ml"
+                       "\\newline E^{1\\%}_{1cm} = \\frac{0.652}{0.010232 \\times 1} = 63.72"
+                       "\\newline IU/g = E^{1\\%}_{1cm} \\times 1900 = 63.72 \\times 1900 = 121068 (IU/g)"
+                       "\\newline 标示量 \\% = \\frac{IU/丸}{标示量} \\times 100 \\% "
+                       "\\newline \\qquad = \\frac{IU/g \\times \\overline {w}}{标示量} \\times 100 \\%"
+                       "\\newline \\qquad = \\frac{121068 \\times 0.0815}{10000} \\times  100 \\% = 98.7 \\%"
+    },
+    "7-14": {
+        "text": "精密称取磺胺异噁唑0.5000g，加二甲基甲酰胺适量使溶解，加偶氮紫指示液3滴，用甲醇钠滴定液（0.09980mol/L）滴定至终点，结果消耗滴定液18.65ml，空白试验消耗滴定液0.09ml，每1ml甲醇钠滴定液（0.1mol/L）相当于26.73mgC11H13N3O3S，求磺胺异噁唑的含量。",
+        "options": {},
+        "answer": "latex:",
+        "answer_text": "\\frac{26.73 \\times (18.65 - 0.09) \\times 10^{-3} \\times \\frac{0.09980}{0.1}}{0.5000} \\times 100 \\% = 99.0\\%"
+    },
+    "7-15": {
+        "text": "取标示量为15mg的苯巴比妥片10片（n=10）检查含量均匀度，测得每一片的含量分别为：14.2mg, 15.8mg, 14.9mg, 14.1mg, 15.2mg, 14.3mg, 14.5mg, 14.9mg, 15.8mg和14.5mg，按含量均匀度限度为15%，计算该片剂的含量均匀度是否符合规定？",
+        "options": {},
+        "answer": "latex:",
+        "answer_text": "\\%"
+        "\\newline 94.7; 105.3; 99.3; 101.3; 94.0;"
+        "\\newline 95.3; 96.7; 99.3; 105.3; 96.7"
+        "\\newline \\overline x = 98.79"
+        "\\newline A = 1.21"
+        "\\newline s = 4.1"
+        "\\newline A + 1.80s = 8.59 < 15.0"
+        "\\newline \\therefore 符合规定"
     },
 }
 
@@ -4000,6 +4086,23 @@ def main():
                     for option, text in question_data['options'].items():
                         st.markdown(f'- {option}. {text}')
                     if question_data["answer"] == "latex:":
+                        latex_code = question_data["answer_text"]  # 获取公式文字的变量
+                        rendered_latex = r"$$" + latex_code + r"$$"
+                        st.markdown(rendered_latex, unsafe_allow_html=True)
+                    elif question_data["answer"] == "latex:table":
+                        st.markdown(f'<span style="background-color: yellow;">解: 首先计算吸收度比值和吸收度比值差（填于表中） 。</span>', unsafe_allow_html=True)
+                        # 创建数据
+                        data = {
+                            '波长': [300, 316, 328, 340, 360],
+                            '吸收度': [0.374, 0.584, 0.652, 0.534, 0.211],
+                            '比值': [0.574, 0.896, 1, 0.819, 0.339],
+                            '规定值': [0.555, 0.907, 1, 0.811, 0.299],
+                            '比值差': [0.019, -0.01, 0, 0.008, 0.04]
+                        }
+                        # 创建DataFrame
+                        df = pd.DataFrame(data)
+                        # 使用Streamlit创建表格
+                        st.table(df)
                         latex_code = question_data["answer_text"]  # 获取公式文字的变量
                         rendered_latex = r"$$" + latex_code + r"$$"
                         st.markdown(rendered_latex, unsafe_allow_html=True)
