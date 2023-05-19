@@ -208,14 +208,18 @@ questions = {
         "options": {},
         "answer": "latex:",
         "answer_text": "解：\\newline"
-                       "描述药物体内消除速度的动力学参数有消除速率常数和生物半衰期。"
-                       "\\newline 消除速率常数，是描述速度过程的动力学参数。药物消除速率可表示为："
+                       "描述药物体内消除速度的动力学参数"
+                       "\\newline 有消除速率常数和生物半衰期。"
+                       "\\newline 消除速率常数，是描述速度过程的动力学参数。"
+                       "\\newline 药物消除速率可表示为："
                        "\\newline -\\frac{dx}{dt}=-kX^n，其中k表示消除速率常数。"
                        "\\newline 消除速率常数的大小可以定量地描述药物消除速度的快慢，"
                        "\\newline 消除速率常数越大，消除过程进行得越快。"
-                       "\\newline 生物半衰期，是指药物在体内的药物量或血药浓度通过各种途径消除一半所需要的时间，"
+                       "\\newline 生物半衰期，是指药物在体内的药物量或血药浓度"
+                       "\\newline 通过各种途径消除一半所需要的时间，"
                        "\\newline 以t1/2表示。生物半衰期是衡量一种药物从体内消除快慢的指标。"
-                       "\\newline 一般来说，代谢快、排泄快的药物，其t1/2短；代谢慢，排泄慢的药物，其t1/2长。"
+                       "\\newline 一般来说，代谢快、排泄快的药物，其t1/2短；代谢慢，"
+                       "\\newline 排泄慢的药物，其t1/2长。"
     },
     "2-2": {
         "text": "比较药物被动转运与主动转运的异同。",
@@ -355,12 +359,14 @@ questions = {
         "answer": "latex:",
         "answer_text": "解：\\newline"
                        "\\newline 达坪分数是指第n次给药后的平均血药浓度 \\overline C_n "
-                       "\\newline 与稳态平均血药浓度\\overline C_{ss} 相比，相当于稳态平均血药浓度\\overline C_{ss} 的分数，以上f_{ss(n)}表示。"
+                       "\\newline 与稳态平均血药浓度\\overline C_{ss} 相比，"
+                       "\\newline 相当于稳态平均血药浓度\\overline C_{ss} 的分数，以上f_{ss(n)}表示。"
                        "\\newline 静脉注射给药的达坪分数求算公式为:"
                        "f_{ss(n} = 1 - e^{-nk \\tau}"
                        "\\newline 血管外给药达坪分数求算公式为："
                        "\\newline f_{ss(n)} = 1 - \\frac{k_a e^{-nk \\tau} - ke^{-nk_a \\tau}}{k_a -k}"
-                       "\\newline 这是由于血管外给药时药物有一个吸收过程，吸收速率常数k_a的"
+                       "\\newline 这是由于血管外给药时药物有一个吸收过程，"
+                       "\\newline 吸收速率常数k_a的"
                        "\\newline 大小会影响药物达到稳态的分数。只有当k_a>>k，在\\tau时吸收基本结束的情况下，"
                        "\\newline 才可以不考虑k_a对f_{ss(n)}的影响，此时f_{ss(n)} = 1-e^{-nk\\tau}"
     },
@@ -369,9 +375,12 @@ questions = {
         "options": {},
         "answer": "latex:",
         "answer_text": "解：\\newline"
-                       "重复静脉注射给药的平均稳态血药浓度求算公式为：\\overline C_{ss} = \\frac{X_0}{Vk \\tau}"
-                       "\\newline 血管外重复给药的平均稳态血药浓度求算公式为： \\overline C_{ss} = \\frac{FX_0}{Vk \\tau}"
-                       "\\newline 这是由于血管外给药时药物有一个吸收过程，通常药物不能完全吸收进入体内"
+                       "重复静脉注射给药的平均稳态血药浓度求算公式为："
+                       "\\newline \\overline C_{ss} = \\frac{X_0}{Vk \\tau}"
+                       "\\newline 血管外重复给药的平均稳态血药浓度求算公式为： "
+                       "\\newline \\overline C_{ss} = \\frac{FX_0}{Vk \\tau}"
+                       "\\newline 这是由于血管外给药时药物有一个吸收过程，"
+                       "\\newline 通常药物不能完全吸收进入体内"
                        "\\newline 即吸收系数F<100 \\%），能够进入体内的药量为FX_0。"
     },
     "2-26": {
@@ -379,9 +388,12 @@ questions = {
         "options": {},
         "answer": "latex:",
         "answer_text": "解：\\newline"
-                       "\\newline 血管外重复给药的稳态峰浓度为：C^{ss}_{max} = \\frac{FX_0}{V}(\\frac{e^{-kt_{max}}}{1-e^{-k \\tau}})"
-                       "\\newline 影响稳态峰浓度的因素有：药物的消除速率常数k，吸收系数F，"
-                       "\\newline 给药剂量X_0，药物的表观分布容积V，稳态达峰时间t_{max}，给药间隔时间 \\tau。"
+                       "\\newline 血管外重复给药的稳态峰浓度为："
+                       "\\newline C^{ss}_{max} = \\frac{FX_0}{V}(\\frac{e^{-kt_{max}}}{1-e^{-k \\tau}})"
+                       "\\newline 影响稳态峰浓度的因素有："
+                       "\\newline 药物的消除速率常数k，吸收系数F，"
+                       "\\newline 给药剂量X_0，药物的表观分布容积V，"
+                       "\\newline 稳态达峰时间t_{max}，给药间隔时间 \\tau。"
     },
     "2-27": {
         "text": "对患者进行间歇静脉滴注时，为什么消除半衰期为36h的药物比消除半衰期为6h的药物更难进行给药方案调整？",
@@ -394,7 +406,8 @@ questions = {
         "options": {},
         "answer": "latex:",
         "answer_text": "解：\\newline"
-                       "蓄积系数又叫蓄积因子或积累系数，系指稳态血药浓度与第一次给药后"
+                       "蓄积系数又叫蓄积因子或积累系数，"
+                       "\\newline 系指稳态血药浓度与第一次给药后"
                        "\\newline 的血药浓度的比值，以R表示。"
                        "\\newline 静脉注射给药蓄积系数求算公式为： R=\\frac{1}{1-e^{-k \\tau}}"
                        "\\newline 血管外给药蓄积系数求算公式为： R = \\frac{1}{(1-e^{-k \\tau})(1-e^{-k_a \\tau})}"
@@ -419,7 +432,8 @@ questions = {
                        "Michaelis-Menten方程如下所示："
                        "\\newline v = Vm \\times \\frac{[S]}{km + [S]}"
                        "\\newline Vm反映了酶系统的饱和水平和活性，"
-                       "\\newline 它表示在酶饱和的情况下，单位时间内酶催化转化底物的最大能力。"
+                       "\\newline 它表示在酶饱和的情况下，"
+                       "\\newline 单位时间内酶催化转化底物的最大能力。"
                        "\\newline Km表示酶与底物之间的亲和力或结合的紧密程度。"
     },
     "2-32": {
@@ -430,16 +444,20 @@ questions = {
                        "非线性药物动力学生物半衰期为 t_{1/2} = \\frac{\\frac{1}{2} C + 0.693K_m}{V_m} = \\frac{C+1.386K_m}{2V_m}"
                        "\\newline 半衰期随血药浓度或给药剂量的不同而变化。"
                        "\\newline 当C << Km，即血药浓度下降到很低时，t_{1/2} = \\frac{0.693k_m}{V_m},"
-                       "\\newline 血药浓度或剂量对生物半衰期影响不明显，表现为线性动力学特征，"
+                       "\\newline 血药浓度或剂量对生物半衰期影响不明显，"
+                       "\\newline 表现为线性动力学特征，"
                        "\\newline t_{1/2}与血药浓度无关；当C >> Km，即血药浓度较高时，t_{1/2} == \\frac{C}{2V_m},"
                        "\\newline 表明生物半衰期随血药浓度或剂量的增加而延长。"
                        "\\newline 血药浓度-时间曲线下面积为 AUC = \\int_{0}^{+ \\infty}Cdt = \\frac{X_0}{V_mV}(K_m + \\frac{X_0}{2V}),"
                        "\\newline 表明AUC与剂量不成正比关系。当X_0/(2V)<<Km，即剂量较低时，"
                        "\\newline 则 AUC = \\frac{K_mX_0}{V_mV},"
-                       "\\newline AUC与剂量成正比，相当于线性一级消除过程；当X0/(2V)>>Km，即剂量较大时，则 AUC = \\frac{X_0^2}{2V_mV^2},"
-                       "\\newline 表明AUC与剂量的平方成正比，此时，剂量的少量增加，会引起AUC较大的增加。"
+                       "\\newline AUC与剂量成正比，相当于线性一级消除过程；"
+                       "\\newline 当X0/(2V)>>Km，即剂量较大时，则 AUC = \\frac{X_0^2}{2V_mV^2},"
+                       "\\newline 表明AUC与剂量的平方成正比，此时，"
+                       "\\newline 剂量的少量增加，会引起AUC较大的增加。"
                        "\\newline 稳态血药浓度 C_{ss} = \\frac{K_mX_0}{\\tau V_m - X_0}, "
-                       "\\newline 当增加剂量时，稳态血药浓度的升高幅度高于正比例的增加程度。""\\newline""\\newline"
+                       "\\newline 当增加剂量时，稳态血药浓度的升高幅度"
+                       "\\newline 高于正比例的增加程度。"
     },
     "2-33": {
         "text": "简述将统计矩应用于药物动力学的基础。",
@@ -458,8 +476,10 @@ questions = {
         "options": {},
         "answer": "latex:",
         "answer_text": "解：\\newline"
-                       "单室模型静脉注射给药的负荷剂量求算公式为： X_0^{*} = \\frac{1}{1-e^{-k \\tau} \\cdot X_0}"
-                       "\\newline 单室模型血管外给药的负荷剂量求算公式为： X_0^{*} = \\frac{1}{(1-e^{-k \\tau})(1-e^{-k_a \\tau})} \\cdot X_0"
+                       "单室模型静脉注射给药的负荷剂量求算公式为： "
+                       "\\newline X_0^{*} = \\frac{1}{1-e^{-k \\tau} \\cdot X_0}"
+                       "\\newline 单室模型血管外给药的负荷剂量求算公式为： "
+                       "\\newline X_0^{*} = \\frac{1}{(1-e^{-k \\tau})(1-e^{-k_a \\tau})} \\cdot X_0"
     },
     "2-37": {
         "text": "治疗药物监测在临床药学中有何应用？",
